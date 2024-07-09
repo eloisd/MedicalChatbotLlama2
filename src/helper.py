@@ -20,7 +20,7 @@ def text_split(extracted_data):
     return text_chunks
 
 
-def download_hugging_face_model(embedding_model):
+def download_hugging_face_embedding(embedding_model):
     embeddings = HuggingFaceEmbeddings(model_name=embedding_model)
     return embeddings
 

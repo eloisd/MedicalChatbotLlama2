@@ -1,5 +1,6 @@
 model/meta-llama
 model/llama-2-7b-chat.ggmlv3.q4_0.bin
+model/llama-2-7b-chat.ggmlv3.q8_0.bin
 model/mixtral-8x7b-instruct-v0.1-limarp-zloss-dare-ties.Q4_0.gguf
 
 # Byte-compiled / optimized / DLL files
@@ -133,6 +134,7 @@ venv/
 ENV/
 env.bak/
 venv.bak/
+envmedchatbot/
 
 # Spyder project settings
 .spyderproject
