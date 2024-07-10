@@ -13,7 +13,7 @@ embedding_model1 = "sentence-transformers/all-MiniLM-L6-v2"
 
 extracted_data = load_pdf("data")
 text_chunks = text_split(extracted_data)
-embeddings = download_hugging_face_model(embedding_model1)
+embeddings = download_hugging_face_embedding(embedding_model1)
 
 
 pc = Pinecone(

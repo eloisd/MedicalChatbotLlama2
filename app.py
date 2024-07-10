@@ -66,4 +66,4 @@ def chat():
     return str(result["result"])
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(port= 5002, debug=True)
