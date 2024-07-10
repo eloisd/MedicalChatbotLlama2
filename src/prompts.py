@@ -8,3 +8,9 @@ Question: {question}
 Only return the helpful answer below and nothing else.
 Helpful answer:
 """
+
+promp_question_template = """
+Give me a detailed description of what is acne. 
+Give me possible causes and concequences. 
+And after a theorical part, give an explaning example that 9 years old child could understand.
+"""
